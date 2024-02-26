@@ -53,6 +53,15 @@ a:link {
     color: rgb(248, 66, 248);
   }
 
+  a.two:hover {
+    color: green;
+  }
+  
+  /* selected link */
+  a.two:active {
+    color: blue;
+  }
+
 main {
     background-color: #daebe8;
 }
