@@ -4,9 +4,8 @@
 
 header {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+27,9fd8ef+51,2ab0ed+100 */
-    background: url(../images/web-developer-clipart.png) no-repeat top right, linear-gradient(45deg, rgba(228, 245, 252, 1) 0%, rgba(191, 232, 249, 1) 27%, rgba(159, 216, 239, 1) 51%, rgba(42, 176, 237, 1) 100%);
+    background: url(../images/web-development-clipart-transparent.png) no-repeat right, linear-gradient(45deg, rgba(228, 245, 252, 1) 0%, rgba(191, 232, 249, 1) 27%, rgba(159, 216, 239, 1) 51%, rgba(42, 176, 237, 1) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    padding: .5em;
 }
 
 h1 {
@@ -28,11 +27,10 @@ nav {
     height: 2em;
     padding-left: 1em;
     background-color: #87bdd8;
-    color: black;
 }
 
 a:link {
-    color: purple;
+    color: rgb(248, 66, 248);
   }
   
   /* visited link */
@@ -50,35 +48,29 @@ a:link {
     color: blue;
   }
 
+
+  a.two:visited {
+    color: rgb(248, 66, 248);
+  }
+
 main {
     background-color: #daebe8;
-    padding: 2em;
 }
 
 section {
-    width: 80%;
-    height: 100%;
-    float: left;
     background-color: #cfe0e8;
-    padding: .5em;
 }
 
+article {
+    background-color: #cfe0e8;
+}
 aside {
-    width: 20%;
-    height: 100%;
-    float: right;
     background-color: #b7d7e8;
-    padding: .5em;
 }
 
 footer {
-    width: 100%;
-    height: 4em;
-    clear: both;
     background-color: #0C1D3C;
-    color: bisque;
-    text-align: center;
-    padding-top: .5em;
+    color: white;
 }
 
 .great-vibes-regular {
