@@ -4,7 +4,7 @@
 
 header {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+27,9fd8ef+51,2ab0ed+100 */
-    background: linear-gradient(45deg, rgba(228, 245, 252, 1) 0%, rgba(191, 232, 249, 1) 27%, rgba(159, 216, 239, 1) 51%, rgba(42, 176, 237, 1) 100%);
+    background: url(../images/web-developer-clipart.png) no-repeat top right, linear-gradient(45deg, rgba(228, 245, 252, 1) 0%, rgba(191, 232, 249, 1) 27%, rgba(159, 216, 239, 1) 51%, rgba(42, 176, 237, 1) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     padding: .5em;
 }
@@ -31,9 +31,24 @@ nav {
     color: black;
 }
 
-a {
+a:link {
+    color: purple;
+  }
+  
+  /* visited link */
+  a:visited {
     color: black;
-}
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: green;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
 
 main {
     background-color: #daebe8;
