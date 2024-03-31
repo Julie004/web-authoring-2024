@@ -30,37 +30,37 @@ nav {
 }
 
 a:link {
-    color: rgb(248, 66, 248);
-  }
-  
-  /* visited link */
-  a:visited {
-    color: black;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: green;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-  }
+  color: rgb(248, 66, 248);
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 
 
-  a.two:visited {
-    color: rgb(248, 66, 248);
-  }
+a.two:visited {
+  color: rgb(248, 66, 248);
+}
 
-  a.two:hover {
-    color: green;
-  }
-  
-  /* selected link */
-  a.two:active {
-    color: blue;
-  }
+a.two:hover {
+  color: green;
+}
+
+/* selected link */
+a.two:active {
+  color: blue;
+}
 
 main {
     background-color: #daebe8;

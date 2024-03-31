@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    display: grid;
+    grid-template-rows: [header-start] auto [content-start] auto [footer-start] 1fr;
+    grid-template-columns: [nav] 1fr [section] 3fr [aside] 1fr;
+    grid-template-areas:
+      "head head head"
+      "nav nav nav"
+      "section section section"
+      "foot foot foot";
+  }
+  
+  header {
+    grid-area: head;
+  }
+
+  main {
+    grid-area: section;
+  }
+  
+  aside {
+    grid-area: aside;
+  }
+  
+  footer {
+    grid-area: foot;
+  }
+
+  nav {
+    grid-area: nav;
+  }
