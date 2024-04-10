@@ -1,0 +1,81 @@
+:root {
+    --color1: #e4f5fc;
+    --color2: #bfe8f9;
+    --color3: #9fd8ef;
+    --color4: #2ab0ed;
+    --color5: #87bdd8;
+    --color6: #daebe8;
+    --color7: #cfe0e8;
+    --color8: #b7d7e8;
+    --color9: #0C1D3C;
+    --color10: #f842f8;
+    --color11: black;
+    --color12: green;
+    --color13: blue;
+    --color14: white;
+}
+
+.accent1-bg {
+    background-color: var(--color5);
+}
+
+.accent2-bg {
+    background-color: var(--color6);
+}
+
+.accent3-bg {
+    background-color: var(--color8);
+}
+
+.accent4-bg {
+    background-color: var(--color7);
+}
+
+.accent5 {
+    background-color: var(--color9);
+    color: var(--color14);
+}
+
+.accent5-bg {
+    background-color: var(--color9);
+}
+
+.white-text {
+    color: var(--color14);
+}
+
+nav a:link {
+    color: var(--color10);
+}
+
+/* visited link */
+nav a:visited {
+    color: var(--color11);
+}
+
+/* mouse over link */
+nav a:hover {
+    color: var(--color12);
+}
+
+/* selected link */
+nav a:active {
+    color: var(--color13);
+}
+
+footer a:link {
+    color: var(--color10);
+}
+
+footer a:visited {
+    color: var(--color10);
+}
+
+footer a:hover {
+    color: var(--color12);
+}
+
+/* selected link */
+footer a:active {
+    color: var(--color13);
+}
