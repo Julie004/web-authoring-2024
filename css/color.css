@@ -16,27 +16,30 @@
 }
 
 .accent1-bg {
+    background-color: linear-gradient(45deg, var(--color1) 0%, var(--color2)) 27%, var(--color3) 51%, var(--color4) 100%);
+}
+.accent2-bg {
     background-color: var(--color5);
 }
 
-.accent2-bg {
+.accent3-bg {
     background-color: var(--color6);
 }
 
-.accent3-bg {
+.accent4-bg {
     background-color: var(--color8);
 }
 
-.accent4-bg {
+.accent5-bg {
     background-color: var(--color7);
 }
 
-.accent5 {
+.accent6 {
     background-color: var(--color9);
     color: var(--color14);
 }
 
-.accent5-bg {
+.accent6-bg {
     background-color: var(--color9);
 }
 
