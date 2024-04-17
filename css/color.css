@@ -8,7 +8,7 @@
     --color7: #cfe0e8;
     --color8: #b7d7e8;
     --color9: #0C1D3C;
-    --color10: #f842f8;
+    --color10: #FF80FF;
     --color11: black;
     --color12: green;
     --color13: blue;
@@ -16,7 +16,7 @@
 }
 
 .accent1-bg {
-    background-color: linear-gradient(45deg, var(--color1) 0%, var(--color2)) 27%, var(--color3) 51%, var(--color4) 100%);
+    background: url(../images/web-development-clipart-transparent.png) no-repeat right, linear-gradient(45deg, var(--color1) 0%, var(--color2) 27%, var(--color3) 51%, var(--color4) 100%);
 }
 .accent2-bg {
     background-color: var(--color5);
@@ -59,6 +59,8 @@ nav a:visited {
 /* mouse over link */
 nav a:hover {
     color: var(--color12);
+    background-color: lightblue;
+    border-color: darkblue;
 }
 
 /* selected link */
