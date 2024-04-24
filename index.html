@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/fontawesome/css/all.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/color.css">
-    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/layout.css" id="color">
+    <script src="js/javascript.js"></script>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
         <h1 class="great-vibes-regular">My Web Page</h1>
         <img class="logo" src="images/logo-transparent.png" alt="Logo">
     </header>
-    <nav class="accent2-bg">
+    <nav class="topnav" id="myTopnav">
         <a href="https://julie004.github.io/web-authoring-2024/index.html" target="_blank"><i
                 class="fa-solid fa-home"></i> Home</a> |
         <a href="https://julie004.github.io/web-authoring-2024/blog.html" target="_blank"><i
@@ -28,6 +29,8 @@
         <a href="https://julie004.github.io/web-authoring-2024/products.html" target="_blank">Products</a> |
         <a href="">Registration</a> |
         <a href="">About Us</a>
+        <button onClick="changeStyle('css/color2.css');">Apply Style</button>
+        <button onClick="changeStyle('css/color1.css');">Blue Style</button>
     </nav>
     <main class="accent3-bg">
         <aside class="accent4-bg">
@@ -38,6 +41,8 @@
                 <li>Advanced Web Programming</li>
             </ul>
         </aside>
+        <script>document.write("<h2>Thank you for visiting my page, " + visitorName + "!</h2>");</script>
+
         <section class="accent5-bg">
             <h2>About Me</h2>
             <p>I'm Julie Torres, a 19-year-old from Dallas, TX, specifically Oak Cliff. Currently, I'm juggling the
@@ -119,7 +124,6 @@
             <p class="white-text">Copyright &copy; 2024</p>
             <a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College</a> |
             <a href="mailto:torrjulie04@gmail.com">Send email</a>
-        </footer>
         </footer>
     </main>
 </body>
