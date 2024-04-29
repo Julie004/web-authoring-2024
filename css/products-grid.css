@@ -8,7 +8,7 @@
     grid-template-columns: [nav] 1fr [section] 3fr [aside] 1fr;
     grid-template-areas:
       "head head head"
-      "nav nav nav"
+      "div div div"
       "section section section"
       "foot foot foot";
   }
@@ -29,6 +29,6 @@
     grid-area: foot;
   }
 
-  nav {
-    grid-area: nav;
+  div {
+    grid-area: div;
   }
