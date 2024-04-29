@@ -8,12 +8,6 @@
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 /*}*/
 
-
-h1 {
-  text-align: center;
-  font-size: 50px;
-}
-
 h2 {
   font-size: 30px;
 }
@@ -53,10 +47,13 @@ footer {
   color: white;
 }
 */
+
 .great-vibes-regular {
   font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+  font-size: 50px;
 }
 
 button {
