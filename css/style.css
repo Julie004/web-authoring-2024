@@ -10,8 +10,8 @@
 
 
 h1 {
-  font-size: 50px;
   text-align: center;
+  font-size: 50px;
 }
 
 h2 {
@@ -60,7 +60,7 @@ footer {
 }
 
 button {
-  background-color: var(--color5);
+  background-color: var(--color15);
   color: var(--color13);
 }
 
@@ -71,7 +71,6 @@ button {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -79,13 +78,13 @@ button {
 }
 
 .topnav a:hover {
-  background-color: #d682e7;
-  color: black;
+  color: var(--color12);
+    background-color: lightblue;
+    border-color: darkblue;
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  color: var(--color13);
 }
 
 .topnav .icon {

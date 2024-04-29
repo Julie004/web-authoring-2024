@@ -13,21 +13,28 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/products-grid.css">
+    <script src="js/javascript.js"></script>
 </head>
 
 <body class="grid-page-layout">
     <header>
         <h1 class="great-vibes-regular">Web Development</h1>
     </header>
-    <nav>
-        <a href="https://julie004.github.io/web-authoring-2024/index.html" target="_blank"><i
-                class="fa-solid fa-home"></i> Home</a> |
-        <a href="https://julie004.github.io/web-authoring-2024/blog.html" target="_blank"><i
-                class="fa-solid fa-newspaper"></i> Blog</a> |
-        <a href="https://julie004.github.io/web-authoring-2024/products.html" target="_blank">Products</a> |
-        <a href="">Registration</a> |
-        <a href="">About Us</a>
-    </nav>
+    <div class="topnav accent2-bg" id="myTopnav">
+        <a href="https://julie004.github.io/web-authoring-2024/index.html" class="active" target="_blank"><i
+            class="fa-solid fa-home"></i> Home</a> 
+    <a href="https://julie004.github.io/web-authoring-2024/blog.html" target="_blank"><i
+        class="fa-solid fa-newspaper"></i> Blog</a> 
+    <a href="https://julie004.github.io/web-authoring-2024/products.html">Products</a> 
+    <a href="https://julie004.github.io/web-authoring-2024/registration.html" target="_blank"><i
+        class="fa-solid fa-pencil"></i>Registration</a> 
+    <a href="">About Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <button onClick="changeStyle('css/color1.css');">Blue Style</button>
+        <button onClick="changeStyle('css/color2.css');">Purple Style</button>
+      </div>
     <main>
         <h2>Research Review</h2>
         <article>

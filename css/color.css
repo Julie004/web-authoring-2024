@@ -13,6 +13,7 @@
     --color12: green;
     --color13: blue;
     --color14: white;
+    --color15: #d6d6c2;
 }
 
 .accent1-bg {
@@ -47,21 +48,16 @@
     color: var(--color14);
 }
 
-nav a:link {
+.topnav a:link {
     color: var(--color11);
 }
 
 /* visited link */
-nav a:visited {
+.topnav a:visited {
     color: var(--color11);
 }
 
 /* mouse over link */
-nav a:hover {
-    color: var(--color12);
-    background-color: lightblue;
-    border-color: darkblue;
-}
 
 /* selected link */
 nav a:active {

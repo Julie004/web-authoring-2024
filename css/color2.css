@@ -1,4 +1,7 @@
 :root {
-    --blue: blue;
+    --accent1: #bf00ff;
     
 }
+.accent1-bg{
+    background-color: var(--accent1);  
+} 

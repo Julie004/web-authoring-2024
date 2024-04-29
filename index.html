@@ -21,18 +21,22 @@
         <h1 class="great-vibes-regular">My Web Page</h1>
         <img class="logo" src="images/logo-transparent.png" alt="Logo">
     </header>
-    <nav class="topnav" id="myTopnav">
-        <a href="https://julie004.github.io/web-authoring-2024/index.html" target="_blank"><i
-                class="fa-solid fa-home"></i> Home</a> |
-        <a href="https://julie004.github.io/web-authoring-2024/blog.html" target="_blank"><i
-                class="fa-solid fa-newspaper"></i> Blog</a> |
-        <a href="https://julie004.github.io/web-authoring-2024/products.html" target="_blank">Products</a> |
-        <a href="">Registration</a> |
-        <a href="">About Us</a>
-        <button onClick="changeStyle('css/color2.css');">Apply Style</button>
+    <div class="topnav accent2-bg" id="myTopnav">
+        <a href="https://julie004.github.io/web-authoring-2024/index.html" class="active" target="_blank"><i
+            class="fa-solid fa-home"></i> Home</a> 
+    <a href="https://julie004.github.io/web-authoring-2024/blog.html" target="_blank"><i
+        class="fa-solid fa-newspaper"></i> Blog</a> 
+    <a href="https://julie004.github.io/web-authoring-2024/products.html">Products</a> 
+    <a href="https://julie004.github.io/web-authoring-2024/registration.html" target="_blank"><i
+        class="fa-solid fa-pencil"></i>Registration</a> 
+    <a href="">About Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
         <button onClick="changeStyle('css/color1.css');">Blue Style</button>
-    </nav>
-    <main class="accent3-bg">
+        <button onClick="changeStyle('css/color2.css');">Purple Style</button>
+      </div>
+      <main class="accent3-bg">
         <aside class="accent4-bg">
             <h4>Courses Taken</h4>
             <ul>
@@ -122,7 +126,7 @@
         </section>
         <footer class='mt-auto theme-dk2 text-center p-2 accent6-bg'>
             <p class="white-text">Copyright &copy; 2024</p>
-            <a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College</a> |
+            <a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank">Dallas College</a> 
             <a href="mailto:torrjulie04@gmail.com">Send email</a>
         </footer>
     </main>
